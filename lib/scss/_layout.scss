@@ -1,0 +1,81 @@
+@mixin main-container {
+    max-width: 810px;
+    margin: auto;
+}
+
+div.container-fluid,
+nav.nav {
+    @include main-container;
+}
+
+nav.nav {
+    margin-bottom: 60px;
+
+    img.header {
+        margin-bottom: 20px;
+    }
+
+    nav.languages ul {
+        li {
+            font-size: $heading-font-size;
+            font-weight: bold;
+            list-style-type: none;
+            float: left;
+            padding: 0 0 0 5px;
+        }
+        li.selected {
+            text-decoration: underline;
+        }
+    }
+
+    div.menu ul {
+        margin-top: 5px;
+        li {
+            list-style-type: none;
+            float: left;
+            padding: 0 0 0 10px;
+            margin: 0 0 0 10px;
+            border-left: 1px solid black;
+        }
+        li:first-child {
+            border-left: 0;
+            margin: 0; padding: 0;
+        }
+        li.active a {
+            text-decoration: underline;
+        }
+    }
+}
+
+div.content {
+    nav.trail {
+        display: none;
+    }
+
+    div.body {
+        width: 460px;
+    }
+}
+
+div.sidebar {
+    div.signup {
+        margin-bottom: 30px;
+        p {
+            text-align: center;
+        }
+    }
+}
+
+div.footer {
+    margin: 20px 0 0 0;
+    padding: 10px 10px 30px 10px;
+    background: #e5e5e5;
+
+    a {
+        color: #FF2244;
+    }
+
+    .copyright {
+        text-align: right;
+    }
+}

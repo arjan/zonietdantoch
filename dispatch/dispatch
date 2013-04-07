@@ -1,0 +1,5 @@
+%% -*- mode: erlang -*-
+%% Put your dispatch rules here.
+[
+ {home,      [],	controller_page,  	[ {id, page_home} ]}
+].

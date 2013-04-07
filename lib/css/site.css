@@ -1,0 +1,72 @@
+div.container-fluid,
+nav.nav {
+  max-width: 810px;
+  margin: auto; }
+
+nav.nav {
+  margin-bottom: 60px; }
+  nav.nav img.header {
+    margin-bottom: 20px; }
+  nav.nav nav.languages ul li {
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+    float: left;
+    padding: 0 0 0 5px; }
+  nav.nav nav.languages ul li.selected {
+    text-decoration: underline; }
+  nav.nav div.menu ul {
+    margin-top: 5px; }
+    nav.nav div.menu ul li {
+      list-style-type: none;
+      float: left;
+      padding: 0 0 0 10px;
+      margin: 0 0 0 10px;
+      border-left: 1px solid black; }
+    nav.nav div.menu ul li:first-child {
+      border-left: 0;
+      margin: 0;
+      padding: 0; }
+    nav.nav div.menu ul li.active a {
+      text-decoration: underline; }
+
+div.content nav.trail {
+  display: none; }
+div.content div.body {
+  width: 460px; }
+
+div.sidebar div.signup {
+  margin-bottom: 30px; }
+  div.sidebar div.signup p {
+    text-align: center; }
+
+div.footer {
+  margin: 20px 0 0 0;
+  padding: 10px 10px 30px 10px;
+  background: #e5e5e5; }
+  div.footer a {
+    color: #FF2244; }
+  div.footer .copyright {
+    text-align: right; }
+
+a {
+  color: black; }
+
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+
+div.menu {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 16px;
+  font-weight: bold; }
+
+div.content h1, div.content h2, div.content h3, div.content h4, div.content h5, div.content h6, div.content p {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+div.content p {
+  text-align: justify; }
+div.content h2 {
+  font-size: 16px;
+  line-height: 20px; }
+
+div.sidebar {
+  text-align: justify; }
