@@ -1,22 +1,16 @@
 % Zotonic site configuration for zonietdantoch.
 [
-    % This site is enabled or not.
-    {enabled, true},
-
     % Hostname on which this site runs
-    {hostname, "zonietdantoch:8000"},
-
-    % Aliases which should redirect to the primary hostname
-    %{hostalias, "www.example.com"},
-    %{hostalias, "example.com"},
+    {hostname, "http://zonietdanto.ch"},
+    {hostalias, "http://www.zonietdanto.ch"},
 
     % PostgreSQL database connection
     {dbhost, "localhost"},
     {dbport, 5432},
     {dbuser, "zotonic"},
     {dbpassword, "zotonic"},
-    {dbdatabase, "zotonic"},
-    {dbschema, "zonietdantoch"},
+    {dbdatabase, "zonietdantoch"},
+    {dbschema, "public"},
 
     % Depcache settings. The maximum size in Mbs
     {depcache_memory_max, 100},
@@ -62,5 +56,5 @@
    mod_bootstrap
   ]},
     
-    {title, "Zo niet dan toch"}
+    {title, "Zo niet, dan toch"}
 ].
