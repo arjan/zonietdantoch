@@ -60,15 +60,17 @@ div.menu {
   font-size: 16px;
   font-weight: bold; }
 
-div.content h1, div.content h2, div.content h3, div.content h4, div.content h5, div.content h6, div.content p {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
-div.content p {
+div.content, div.sidebar {
   text-align: justify; }
-div.content h2 {
-  font-size: 16px;
-  line-height: 20px; }
-
-div.sidebar {
-  text-align: justify; }
-  div.sidebar table td, div.sidebar table tr {
-    text-align: left; }
+  div.content h1, div.content h2, div.content h3, div.content h4, div.content h5, div.content h6, div.content p, div.sidebar h1, div.sidebar h2, div.sidebar h3, div.sidebar h4, div.sidebar h5, div.sidebar h6, div.sidebar p {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+  div.content p, div.sidebar p {
+    text-align: justify;
+    margin: 0 0 18px; }
+  div.content h2, div.sidebar h2 {
+    font-size: 16px;
+    line-height: 20px; }
+  div.content table, div.sidebar table {
+    font-size: 11px; }
+    div.content table td, div.content table tr, div.sidebar table td, div.sidebar table tr {
+      text-align: left; }

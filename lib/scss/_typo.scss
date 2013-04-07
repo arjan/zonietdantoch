@@ -22,25 +22,27 @@ div.menu {
     font-weight: bold;
 }
 
-div.content {
+div.content, div.sidebar {
+    text-align: justify;
+
     h1,h2,h3,h4,h5,h6,p {
         @include sans;
     }
 
     p {
         text-align: justify;
+        margin: 0 0 18px;
     }
     
     h2 {
         font-size: 16px;
         line-height: 20px;
     }
-}
 
-div.sidebar {
-    text-align: justify;
 
     table {
+        font-size: 11px;
+        
         td, tr {
             text-align: left;
         }
