@@ -39,4 +39,10 @@ div.content {
 
 div.sidebar {
     text-align: justify;
+
+    table {
+        td, tr {
+            text-align: left;
+        }
+    }
 }

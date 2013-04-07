@@ -70,3 +70,5 @@ div.content h2 {
 
 div.sidebar {
   text-align: justify; }
+  div.sidebar table td, div.sidebar table tr {
+    text-align: left; }
