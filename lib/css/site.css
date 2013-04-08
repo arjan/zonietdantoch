@@ -7,6 +7,8 @@ nav.nav {
   margin-bottom: 60px; }
   nav.nav img.header {
     margin-bottom: 20px; }
+  nav.nav a {
+    color: black; }
   nav.nav nav.languages ul li {
     font-size: 20px;
     font-weight: bold;
@@ -50,7 +52,7 @@ div.footer {
     text-align: right; }
 
 a {
-  color: black; }
+  color: #ff3a39; }
 
 body {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
@@ -67,6 +69,8 @@ div.content, div.sidebar {
   div.content p, div.sidebar p {
     text-align: justify;
     margin: 0 0 18px; }
+  div.content a:hover, div.sidebar a:hover {
+    color: black; }
   div.content h2, div.sidebar h2 {
     font-size: 16px;
     line-height: 20px; }
