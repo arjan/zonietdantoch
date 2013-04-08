@@ -70,7 +70,5 @@ div.content, div.sidebar {
   div.content h2, div.sidebar h2 {
     font-size: 16px;
     line-height: 20px; }
-  div.content table, div.sidebar table {
-    font-size: 11px; }
-    div.content table td, div.content table tr, div.sidebar table td, div.sidebar table tr {
-      text-align: left; }
+  div.content table td, div.content table tr, div.sidebar table td, div.sidebar table tr {
+    text-align: left; }
