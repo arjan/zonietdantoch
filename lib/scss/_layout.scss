@@ -18,6 +18,11 @@ nav.nav {
     a {
         color: black;
     }
+
+    a:hover {
+        background: inherit;
+        text-decoration: underline;
+    }
     
     nav.languages ul {
         li {
