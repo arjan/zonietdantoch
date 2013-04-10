@@ -13,8 +13,16 @@ nav.nav {
 
     img.header {
         margin-bottom: 20px;
+        width: 100%;
+        max-width: 810px;
     }
 
+    img.logo {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    
     a {
         color: black;
     }
@@ -25,6 +33,8 @@ nav.nav {
     }
     
     nav.languages ul {
+        padding-bottom: 20px;
+
         li {
             font-size: $heading-font-size;
             font-weight: bold;
@@ -62,7 +72,7 @@ div.content {
     }
 
     div.body {
-        width: 460px;
+        max-width: 460px;
     }
 }
 
@@ -88,3 +98,4 @@ div.footer {
         text-align: right;
     }
 }
+

@@ -6,20 +6,27 @@ nav.nav {
 nav.nav {
   margin-bottom: 60px; }
   nav.nav img.header {
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 810px; }
+  nav.nav img.logo {
+    width: 100%;
+    max-width: 500px; }
   nav.nav a {
     color: black; }
   nav.nav a:hover {
     background: inherit;
     text-decoration: underline; }
-  nav.nav nav.languages ul li {
-    font-size: 20px;
-    font-weight: bold;
-    list-style-type: none;
-    float: left;
-    padding: 0 0 0 5px; }
-  nav.nav nav.languages ul li.selected {
-    text-decoration: underline; }
+  nav.nav nav.languages ul {
+    padding-bottom: 20px; }
+    nav.nav nav.languages ul li {
+      font-size: 20px;
+      font-weight: bold;
+      list-style-type: none;
+      float: left;
+      padding: 0 0 0 5px; }
+    nav.nav nav.languages ul li.selected {
+      text-decoration: underline; }
   nav.nav div.menu ul {
     margin-top: 5px; }
     nav.nav div.menu ul li {
@@ -38,7 +45,7 @@ nav.nav {
 div.content nav.trail {
   display: none; }
 div.content div.body {
-  width: 460px; }
+  max-width: 460px; }
 
 div.sidebar div.signup {
   margin-bottom: 30px; }

@@ -1,5 +1,5 @@
 <nav class="nav">
-    {% image "lib/images/header_image.jpg" class="header" width=810 %}
+    <img src="/lib/images/header.jpg" class="header" />
 
 	<nav class="languages pull-right">
 		<ul>
@@ -11,10 +11,7 @@
 		{% wire id="lang-en" postback={set_language code='en'} delegate=`mod_translation` %}
 	</nav>
 
-    <div class="logo">
-        {% image "lib/images/logo.png" width=500 %}
-    </div>
-
+    <img src="/lib/images/header_logo.png" class="logo" />
 
     <div class="menu clearfix">
         {% menu id=id %}
