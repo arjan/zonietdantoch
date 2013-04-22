@@ -67,6 +67,25 @@ nav.nav {
         background: inherit;
         text-decoration: underline;
     }
+
+    nav.languages ul {
+        padding-top: 24px;
+        
+        li {
+            font-size: $heading-font-size;
+            font-weight: bold;
+            list-style-type: none;
+            float: left;
+            padding: 0 0 0 5px;
+            a {
+                color: black;
+                font-size: 20px;
+            }
+        }
+        li.selected {
+            text-decoration: underline;
+        }
+    }
     
     div.menu ul {
         margin-top: 5px;
@@ -94,24 +113,6 @@ div.content {
 
     div.body {
         max-width: 460px;
-    }
-
-    nav.languages ul {
-        padding-bottom: 20px;
-
-        li {
-            font-size: $heading-font-size;
-            font-weight: bold;
-            list-style-type: none;
-            float: left;
-            padding: 0 0 0 5px;
-            a {
-                color: black;
-            }
-        }
-        li.selected {
-            text-decoration: underline;
-        }
     }
     
 }
