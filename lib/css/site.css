@@ -12,7 +12,7 @@ div.container-fluid {
     background: rgba(255, 255, 255, 0.9);
     padding: 20px;
     border-radius: 10px;
-    max-width: 560px;
+    max-width: 530px;
     float: left; }
   div.container-fluid div.sidebar {
     background: rgba(255, 255, 255, 0.9);
@@ -21,7 +21,7 @@ div.container-fluid {
     float: left;
     margin-left: 10px;
     margin-top: 146px;
-    max-width: 210px; }
+    max-width: 240px; }
   div.container-fluid div.footer {
     max-width: 820px;
     background: rgba(255, 255, 255, 0.9);

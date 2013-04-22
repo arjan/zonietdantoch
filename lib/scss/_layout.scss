@@ -23,7 +23,7 @@ div.container-fluid {
 
     div.content {
         @include bordered;
-        max-width: 560px;
+        max-width: 530px;
         float: left;
     }
 
@@ -32,7 +32,7 @@ div.container-fluid {
         float: left;
         margin-left: 10px;
         margin-top: 146px;
-        max-width: 210px;
+        max-width: 240px;
     }
 
     div.footer {
