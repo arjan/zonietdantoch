@@ -46,9 +46,7 @@
 
 	            </div>
 
-                <div class="sidebar">
-                    {% block sidebar %}{% endblock %}
-                </div>
+                {% block sidebar %}{% endblock %}
             {% endblock %}
 	        {% include "_footer.tpl" %}
         </div>

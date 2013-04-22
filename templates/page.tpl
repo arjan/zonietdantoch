@@ -8,5 +8,9 @@
 {% endblock %}
 
 {% block sidebar %}
-{{ id.sidebar_html|show_media }}
+{% if id.sidebar_html %}
+<div class="sidebar">
+    {{ id.sidebar_html|show_media }}
+</div>
+{% endif %}
 {% endblock %}
