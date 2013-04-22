@@ -2,6 +2,9 @@
 
 {% block content %}
 {{ id.body|show_media }}
+
+{% block below_body %}
+{% endblock %}
 {% endblock %}
 
 {% block sidebar %}
