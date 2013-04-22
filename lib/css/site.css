@@ -45,16 +45,6 @@ nav.nav {
   nav.nav a:hover {
     background: inherit;
     text-decoration: underline; }
-  nav.nav nav.languages ul {
-    padding-bottom: 20px; }
-    nav.nav nav.languages ul li {
-      font-size: 20px;
-      font-weight: bold;
-      list-style-type: none;
-      float: left;
-      padding: 0 0 0 5px; }
-    nav.nav nav.languages ul li.selected {
-      text-decoration: underline; }
   nav.nav div.menu ul {
     margin-top: 5px; }
     nav.nav div.menu ul li {
@@ -74,6 +64,18 @@ div.content nav.trail {
   display: none; }
 div.content div.body {
   max-width: 460px; }
+div.content nav.languages ul {
+  padding-bottom: 20px; }
+  div.content nav.languages ul li {
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+    float: left;
+    padding: 0 0 0 5px; }
+    div.content nav.languages ul li a {
+      color: black; }
+  div.content nav.languages ul li.selected {
+    text-decoration: underline; }
 
 div.sidebar div.signup {
   margin-bottom: 30px; }
