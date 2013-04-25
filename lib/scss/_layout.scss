@@ -114,7 +114,11 @@ div.content {
     div.body {
         max-width: 460px;
     }
-    
+
+    figure iframe {
+        max-width: 460px;
+        max-height: 344px;
+    }
 }
 
 div.sidebar {
@@ -139,5 +143,6 @@ div.footer {
         text-align: right;
     }
 }
+
 
 
