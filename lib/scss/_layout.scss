@@ -1,5 +1,5 @@
 @mixin main-container {
-    max-width: 860px;
+    max-width: 1100px;
     margin: auto;
 }
 
@@ -19,27 +19,45 @@ nav.nav {
 }
 
 div.container-fluid {
-        margin-top: 100px;
+    margin-top: 100px;
 
-    div.content {
+    div.sideleft {
         @include bordered;
-        max-width: 530px;
+        width: 200px;
+        margin: 146px 10px 10px 0;
         float: left;
+        position: fixed;
+
+        ul.contents {
+            margin-left: 18px;
+            margin-top: 10px;
+            li a {
+            color: black;
+            text-decoration: underline;
+            }
+        }
     }
 
+    div.main-content {
+        max-width: 560px;
+        float: left;
+        margin-left: 250px;
+        div.content {
+            @include bordered;
+        }
+
+        div.footer {
+            width: auto;
+            @include bordered;
+            margin-top: 10px;
+        }
+    }
+    
     div.sidebar {
         @include bordered;
         float: left;
-        margin-left: 10px;
-        margin-top: 146px;
-        width: 240px;
-    }
-
-    div.footer {
-        max-width: 820px;
-        @include bordered;
-        float: left;
-        margin-top: 20px;
+        margin: 146px 0 10px 10px;
+        width: 200px;
     }
 }
 
@@ -143,6 +161,7 @@ div.footer {
         text-align: right;
     }
 }
+
 
 
 

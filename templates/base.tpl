@@ -27,17 +27,21 @@
         <div class="container-fluid">
 	        {% block content_area %}
 
+                {% block sideleft %}{% endblock %}
+                <div class="main-content">
 	            <div class="content" {% include "_language_attrs.tpl" language=z_language %}>
                     {% block navbar %}
 	                    {% include "_navbar.tpl" %}
                     {% endblock %}
 
 		            {% block content %}{% endblock %}
+                </div>
+                {% include "_footer.tpl" %}
+
 	            </div>
 
                 {% block sidebar %}{% endblock %}
             {% endblock %}
-	        {% include "_footer.tpl" %}
         </div>
 
         {% include "_js_include.tpl" %}
