@@ -11,14 +11,13 @@
 {% block sideleft %}
     {% if id.blocks %}
         <div class="sideleft">
-            <h3>{_ Contents _}</h3>
-            <ul class="contents">
+            <div class="contents">
             {% for b in id.blocks %}
                 {% if b.type == 'header' %}
-                    <li><a href="#{{ b.name }}">{{ b.header }}</a></li>
+                    <p><a href="#{{ b.name }}">{{ b.header }}</a></p>
                 {% endif %}
             {% endfor %}
-        </ul>
+        </div>
         </div>
     {% endif %}
 {% endblock %}

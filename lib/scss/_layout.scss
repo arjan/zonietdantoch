@@ -28,10 +28,16 @@ div.container-fluid {
         float: left;
         position: fixed;
 
-        ul.contents {
+        div.contents {
             margin-left: 18px;
             margin-top: 10px;
-            li a {
+            p:before {
+                content: ",";
+                font-size: 48px;
+                font-weight: bold;
+                margin-right: 10px;
+            }
+            a {
             color: black;
             text-decoration: underline;
             }

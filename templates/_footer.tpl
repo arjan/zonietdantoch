@@ -9,9 +9,9 @@
 
     <div>
         {% if z_language == "nl" %}
-            Zo niet, dan toch festival door <a href="http://sndrv.nl">Sander Veenhof</a> en <a href="http://www.klasien.nl/">Klasien van de Zandschulp</a>.
+            Zo niet, dan toch festival door <br><a href="http://sndrv.nl">Sander Veenhof</a> en <a href="http://www.klasien.nl/">Klasien van de Zandschulp</a>.
         {% else %}
-            Zo niet, dan toch festival by <a href="http://sndrv.nl">Sander Veenhof</a> and <a href="http://www.klasien.nl/">Klasien van de Zandschulp</a>.
+            Zo niet, dan toch festival by <br><a href="http://sndrv.nl">Sander Veenhof</a> and <a href="http://www.klasien.nl/">Klasien van de Zandschulp</a>.
         {% endif %}
     </div>
 {#    {% include "_ua_select.tpl" dropup %} #}
