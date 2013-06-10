@@ -16,17 +16,14 @@ div.container-fluid {
     margin: 146px 10px 10px 0;
     float: left;
     position: fixed; }
-    div.container-fluid div.sideleft div.contents {
-      margin-left: 18px;
-      margin-top: 10px; }
-      div.container-fluid div.sideleft div.contents p:before {
-        content: ",";
-        font-size: 48px;
-        font-weight: bold;
-        margin-right: 10px; }
-      div.container-fluid div.sideleft div.contents a {
-        color: black;
-        text-decoration: underline; }
+    div.container-fluid div.sideleft div.contents p:before {
+      content: ",";
+      font-size: 48px;
+      font-weight: bold;
+      margin-right: 10px; }
+    div.container-fluid div.sideleft div.contents a {
+      color: black;
+      text-decoration: underline; }
   div.container-fluid div.main-content {
     max-width: 560px;
     float: left;
