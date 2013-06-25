@@ -133,7 +133,7 @@ div.content, div.sidebar {
   div.content h1, div.content h2, div.content h3, div.content h4, div.content h5, div.content h6, div.content p, div.sidebar h1, div.sidebar h2, div.sidebar h3, div.sidebar h4, div.sidebar h5, div.sidebar h6, div.sidebar p {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
   div.content p, div.sidebar p {
-    text-align: justify;
+    text-align: left;
     margin: 0 0 18px; }
   div.content a:hover, div.sidebar a:hover {
     color: black; }
