@@ -23,6 +23,9 @@ div.container-fluid {
       margin-right: 10px; }
     div.container-fluid div.sideleft div.contents a {
       color: black;
+      text-decoration: none; }
+    div.container-fluid div.sideleft div.contents a:hover {
+      color: black;
       text-decoration: underline; }
   div.container-fluid div.main-content {
     max-width: 560px;
@@ -126,7 +129,7 @@ div.menu {
   font-weight: bold; }
 
 div.content, div.sidebar {
-  text-align: justify; }
+  text-align: left; }
   div.content h1, div.content h2, div.content h3, div.content h4, div.content h5, div.content h6, div.content p, div.sidebar h1, div.sidebar h2, div.sidebar h3, div.sidebar h4, div.sidebar h5, div.sidebar h6, div.sidebar p {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
   div.content p, div.sidebar p {

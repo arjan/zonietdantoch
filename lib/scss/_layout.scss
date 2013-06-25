@@ -36,8 +36,12 @@ div.container-fluid {
                 margin-right: 10px;
             }
             a {
-            color: black;
-            text-decoration: underline;
+                color: black;
+                text-decoration: none;
+            }
+            a:hover {
+                color: black;
+                text-decoration: underline;
             }
         }
     }
